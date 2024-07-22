@@ -39,7 +39,7 @@ class AllMenuSection extends Component{
             isLoading:true,
         })
         const jwtToken = Cookies.get("jwt_token")
-        const apiUrl = `http://localhost:3004/menu?sort_by = ${activeOptionId}`
+        const apiUrl = `https://backendfoodappp-1.onrender.com/menu?sort_by = ${activeOptionId}`
         
         const options = {
             method:"GET",

@@ -28,7 +28,7 @@ class PrimeMember extends Component{
          apiStatus:apiStatusConstant.loading
         })
         const jwtToken = Cookies.get("jwt_token")//get Cookies from jwt_token
-        const apiUrl = "http://localhost:3004/prime"//Api
+        const apiUrl = "https://backendfoodappp-1.onrender.com/prime"//Api
         const options = {
             
             headers:{
